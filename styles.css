@@ -1,7 +1,108 @@
 body {
   background-color: rgb(255, 255, 255);
   text-align: center;
+  font-family: sans-serif;
+}
+
+a {
+  padding: 8px;
+  color: inherit;
+  text-decoration: none;
+}
+
+li {
+  display: inline;
+}
+
+.nav-bar {
+  padding: 2px;
+  align-items: center;
+}
+
+.nav-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  padding: 8px;
+}
+
+.nav-bar-left {
+  float: left;
+}
+
+.nav-bar-right {
+  float: right;
 }
 
 .body {
+  margin-top: 15%;
+}
+
+.form {
+  line-height: 3em;
+  border-radius: 50px;
+}
+
+.form-input {
+  width: 40em;
+  padding: 12px 20px;
+  border-radius: 5px;
+  border: 1px #DBDBDB solid;
+  margin-top: 15px;
+}
+
+.form-button {
+  background-color: #F7F7F7;
+  border-radius: 5px;
+  border: 0;
+  width: 120px;
+  height: 35px;
+  padding: 2px;
+}
+
+.sign-in-button  {
+  background-color: #4A75FF;
+  color: white;
+  border-radius: 5px;
+  border: 0;
+  width: 100px;
+  height: 35px;
+  padding: 2px;
+  float: right;
+}
+
+.footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding: 8px;
+}
+
+.footer-left {
+  float: left;
+}
+
+.footer-right {
+  float: right;
+}
+
+
+#button-div {
+  margin-top: 20px;
+}
+
+#footer {
+  bottom: 0%;
+  padding-bottom: 10px;
+  position: fixed;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button:hover {
+  border: 1px #DBDBDB solid;
+  box-shadow:
 }
